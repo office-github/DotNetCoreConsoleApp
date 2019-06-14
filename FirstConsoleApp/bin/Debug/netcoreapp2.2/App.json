@@ -1,0 +1,13 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+  "ConnectionStrings": {
+    "Default": "Server=DESKTOP-H57LPED;Database=Practice;UserId=sa;Password=123;Trusted_Connection=True;"
+  },
+}
