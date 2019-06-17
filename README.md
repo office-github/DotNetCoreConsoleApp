@@ -2,7 +2,7 @@
 EF Core 2.2 in .NET Core 2.2
 
 <details>         
-<summary> # Brief </summary>
+<summary> # Brief # </summary>
 <p>This console app fetches the record from the existing databse 'Practice' and table 'Student'.
 This is the example of the code first approach of the EF Core.
 
