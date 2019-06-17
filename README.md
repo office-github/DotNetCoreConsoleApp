@@ -15,7 +15,6 @@ This console app contains below folders
 
 <details>
 <summary> Details of each Folders</summary>
-  ```
 <p>
   <details>
 <summary> 1. Data </summary>
@@ -71,4 +70,3 @@ Generic method to fetch record from the particular repository of the Model 'T'.
   </details>
 </p>
 </details>
-```
