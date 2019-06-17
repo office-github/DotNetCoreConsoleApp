@@ -12,5 +12,35 @@ This console app contains below folders
 
 # Details of each Folders
 # 1. Data
-This folder contains the two classes:
-a. 
+This folder contains the below two classes:
+
+# a. DBContext.cs
+Provides below things:
+i. Connection strings
+ii. Connection to the SQL Sever Database
+iii. This class reads the Model(s) i.e. Student from the assemblies dynamically and creates the models in the database if not available.
+
+# b. Repository.cs
+Provides below things
+i. This class is generic class for all the available entities i.e. Models (for eg. Student)
+ii. This will provides the data access to the table i.e. Student
+
+# 2. Models
+This folder contains the blelow two classes:
+# a. Student.cs
+This is the model for the student entity to the database.
+
+# b. StudentMap.cs
+This class contains the configuration to map the Model 'Student' with the 'Student' table in the database.
+
+# 3. Services
+This folder contains the blelow one class:
+
+# a. GenericService.cs
+This class contains two methods:
+i. ExecuteWithResult()
+This establishes the connection with the database and captures the exception and logs to the exception to the console if it fails to connect to the database.
+If Connection success, then it will returns the repository to the particular entity i.e. Student.
+
+ii. GetList<T>()
+Generic method to fetch record from the particular repository of the Model 'T'.
