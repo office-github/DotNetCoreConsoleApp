@@ -29,6 +29,7 @@ iii. This class reads the Model(s) i.e. Student from the assemblies dynamically 
 
 ### b. Repository.cs
 Provides below things
+
 i. This class is generic class for all the available entities i.e. Models (for eg. Student)
 ii. This will provides the data access to the table i.e. Student
 </P>
@@ -53,6 +54,7 @@ This folder contains the blelow one class:
 
 ### a. GenericService.cs
 This class contains two methods:
+
 i. ExecuteWithResult()
 This establishes the connection with the database and captures the exception and logs to the exception to the console if it fails to connect to the database.
 If Connection success, then it will returns the repository to the particular entity i.e. Student.
