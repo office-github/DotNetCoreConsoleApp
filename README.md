@@ -34,15 +34,21 @@ ii. This will provides the data access to the table i.e. Student
 </P>
 </details>
 
-# 2. Models
+<details>
+<summary> 2. Models</summary>
+  <p>
 This folder contains the blelow two classes:
 # a. Student.cs
 This is the model for the student entity to the database.
 
 # b. StudentMap.cs
 This class contains the configuration to map the Model 'Student' with the 'Student' table in the database.
+</P>
+</details>
 
-# 3. Services
+<details>
+<summary> 3. Services </summary>
+  <p>
 This folder contains the blelow one class:
 
 # a. GenericService.cs
@@ -53,5 +59,7 @@ If Connection success, then it will returns the repository to the particular ent
 
 ii. GetList<T>()
 Generic method to fetch record from the particular repository of the Model 'T'.
+  </p>
+  </details>
 </p>
 </details>
