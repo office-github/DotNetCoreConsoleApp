@@ -2,7 +2,7 @@
 EF Core 2.2 in .NET Core 2.2
 
 <details>         
-<summary> # Brief # </summary>
+<summary> Brief </summary>
 <p>This console app fetches the record from the existing databse 'Practice' and table 'Student'.
 This is the example of the code first approach of the EF Core.
 
@@ -13,7 +13,9 @@ This console app contains below folders
 </p>
 </details>
 
-# Details of each Folders
+<details>
+<summary> Details of each Folders</summary>
+<p>
 # 1. Data
 This folder contains the below two classes:
 
@@ -47,3 +49,5 @@ If Connection success, then it will returns the repository to the particular ent
 
 ii. GetList<T>()
 Generic method to fetch record from the particular repository of the Model 'T'.
+</p>
+</details>
