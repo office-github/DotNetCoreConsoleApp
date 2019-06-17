@@ -16,7 +16,9 @@ This console app contains below folders
 <details>
 <summary> Details of each Folders</summary>
 <p>
-# 1. Data
+  <details>
+<summary> 1. Data </summary>
+    <p>
 This folder contains the below two classes:
 
 # a. DBContext.cs
@@ -29,6 +31,8 @@ iii. This class reads the Model(s) i.e. Student from the assemblies dynamically 
 Provides below things
 i. This class is generic class for all the available entities i.e. Models (for eg. Student)
 ii. This will provides the data access to the table i.e. Student
+</P>
+</details>
 
 # 2. Models
 This folder contains the blelow two classes:
