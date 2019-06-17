@@ -23,14 +23,18 @@ This folder contains the below two classes:
 
 ### a. DBContext.cs
 Provides below things:
+
 i. Connection strings
+
 ii. Connection to the SQL Sever Database
+
 iii. This class reads the Model(s) i.e. Student from the assemblies dynamically and creates the models in the database if not available.
 
 ### b. Repository.cs
 Provides below things
 
 i. This class is generic class for all the available entities i.e. Models (for eg. Student)
+
 ii. This will provides the data access to the table i.e. Student
 </P>
 </details>
@@ -39,7 +43,8 @@ ii. This will provides the data access to the table i.e. Student
 <summary> 2. Models</summary>
   <p>
 This folder contains the blelow two classes:
-# a. Student.cs
+    
+### a. Student.cs
 This is the model for the student entity to the database.
 
 ### b. StudentMap.cs
